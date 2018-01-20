@@ -1,12 +1,8 @@
-# BellMediaTest
-
-
-
 # Bell Media Test
 
 ## Test Front-End
 
-### Description
+#### Description et Fonctionnement
 
 Ce project utilise du javascript, HTML5, et CSS pour afficher l'alignement d'une équipe
 LNH provenu d'un object JSON. Le framework CSS W3 est utilisé
@@ -14,6 +10,7 @@ LNH provenu d'un object JSON. Le framework CSS W3 est utilisé
 1. Naviguer au dossier 'FrontEndTest'
 
 2. Simplement ouvrir le ficher 'rds.html' dans un navigateur web
+
 
 ## Test REST/JSON et UI
 
@@ -25,13 +22,14 @@ Vous pouvez télécharger et installer NodeJS ici:
 
 https://nodejs.org/en/
 
+
 ## Test REST
 
 Ce project utilise le system de test "chakram", une extension de "chai"
 
 http://dareid.github.io/chakram/
 
-#### Installation et Fonctionnement
+### Installation et Fonctionnement
 
 1. Installer le system de test "mocha"
 
@@ -69,7 +67,7 @@ seront automatiquement effectués.
 À noter que le ficher contenant les tests est situé au 'UITesting/cypress/integration/rdsui_spec.js'
 
 
-#### Notes
+#### Notes 
 
 1. 'Cypress' et 'chakram devraient être déjà installer dans le projet, par contre s'ils 
     ne sont pas, tout simplement enter dans l'interface de ligne de commande:
