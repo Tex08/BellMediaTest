@@ -47,7 +47,7 @@ Ce project utilise le système de test UI end-to-end "Cypress"
 
 https://www.cypress.io/
 
-#### Fonctionnement
+### Installation et Fonctionnement
 
 1. Dans l'interface de ligne de commande:
 
