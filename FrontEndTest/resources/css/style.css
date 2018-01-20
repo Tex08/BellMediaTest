@@ -1,0 +1,65 @@
+
+.w3-titlefont {
+  font-family: "Arial";
+  font-size: 300px;
+}
+
+div.team-info {
+	width: 500px;
+	padding-bottom: 36px;
+}
+
+div.team-name {
+	width: 600px;
+}
+
+.w3-container-lineup {
+	padding-top: 150px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.w3-container-team {
+	padding-top: 75px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+img.rds-logo {
+	padding-top: 20px;
+	padding-bottom: 16px;
+}
+
+.team-lineup {
+	background-color: #002D62;
+}
+
+#title {
+	text-shadow: 2px 2px #666666;
+}
+
+h2 {
+	border-bottom: 2px solid lightgrey;
+	padding-bottom: 25px;
+	text-shadow: 2px 2px #e6e6e6;
+}
+
+h3 {
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 20px;
+	text-shadow: 2px 2px #e6e6e6;
+}
+
+#grad {
+	background: linear-gradient(to right, darkblue , white);
+}
+
+#teamName {
+	color: white;
+	font-family: Arial;
+}
+
+#tbFwd {
+	padding-bottom: 30px;
+}
+

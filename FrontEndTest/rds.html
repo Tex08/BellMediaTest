@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">RDS Test</title>
+    <script src="http://rdsmedia.cookieless.ca/misc/winnipeg.js"></script>
+    <script type="text/javascript" src="resources/js/rdsScript.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+</head>
+
+<!--  Template  -->
+<body>
+
+<header class="w3-container w3-light-grey">
+	<img class="w3-left rds-logo" src="resources/images/RDS_logo_sm01.png" alt="RDS logo">
+	<div class="w3-center"><h1><i><b>TEST</b></i></h1></div>
+</header>
+
+<div class="w3-container-team">
+	<div id="grad" class="w3-half">
+		<h1 id="teamName"><b>Équipe: </b></h1>
+	</div>
+	<div class="w3-half">
+		<table id="tbTeam" class="w3-table w3-bordered">
+			<tr>
+				<th>Conférence</th>
+				<th>Division</th>
+			</tr>
+			<tr>
+				<td id="conf"></td>
+				<td id="div"></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div class="w3-container-lineup">
+	<h2>FORMATION</h2> 
+	<h3 class="w3-quarter">Attaquants</h3>
+	<button class="w3-right w3-button w3-circle w3-medium w3-blue-grey w3-card-4" 
+			onclick="collapse('tbFwd')"><b>+</b></button>
+	<table id="tbFwd" class="w3-table-all w3-hoverable"> 
+		<tr class="w3-blue-grey">
+			<th>No.</th>
+			<th>NOM</th>
+			<th>POS</th>
+			<th>TAILLE</th>
+			<th>POIDS</th>
+			<th>DATE DE NAISSANCE</th>
+			<th>STATUS</th>
+			<th>ÂGE</th>
+		</tr>
+	</table>
+
+	<h3 class="w3-quarter">Défenseurs</h3>
+	<button class="w3-right w3-button w3-circle w3-medium w3-blue-grey w3-card-4" 
+			onclick="collapse('tbD')"><b>+</b></button>
+	<table id="tbD" class="w3-table-all w3-hoverable"> 
+		<tr class="w3-blue-grey">
+			<th>No.</th>
+			<th>NOM</th>
+			<th>POS</th>
+			<th>TAILLE</th>
+			<th>POIDS</th>
+			<th>DATE DE NAISSANCE</th>
+			<th>STATUS</th>
+			<th>ÂGE</th>
+		</tr>
+	</table>
+
+	<h3 class="w3-quarter">Gardiens</h3>
+	<button class="w3-right w3-button w3-circle w3-medium w3-blue-grey w3-card-4" 
+			onclick="collapse('tbG')"><b>+</b></button>
+	<table id="tbG" class="w3-table-all w3-hoverable"> 
+		<tr class="w3-blue-grey">
+			<th>No.</th>
+			<th>NOM</th>
+			<th>POS</th>
+			<th>TAILLE</th>
+			<th>POIDS</th>
+			<th>DATE DE NAISSANCE</th>
+			<th>STATUS</th>
+			<th>ÂGE</th>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>
