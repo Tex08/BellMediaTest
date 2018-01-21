@@ -2,7 +2,7 @@
 
 ## Test Front-End
 
-#### Description et Fonctionnement
+### Description et Fonctionnement
 
 Ce project utilise du javascript, HTML5, et CSS pour afficher l'alignement d'une équipe
 LNH provenu d'un object JSON. Le framework CSS W3 est utilisé.
@@ -41,7 +41,7 @@ http://dareid.github.io/chakram/
 
 1. Dans l'interface de ligne de commande:
 
-   - enter 'npm install -g mocha' pour installer Mocha
+   - entrer 'npm install -g mocha' pour installer Mocha
    - naviger dans le dossier du project: 'RESTTesting'
    - entrer 'npm run test'
 
@@ -55,7 +55,7 @@ Ce project utilise le système de test UI end-to-end "Cypress"
 
 https://www.cypress.io/
 
-### Installation et Fonctionnement
+### Fonctionnement
 
 1. Dans l'interface de ligne de commande:
 
