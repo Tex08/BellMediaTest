@@ -23,14 +23,15 @@ Vous pouvez télécharger et installer NodeJS ici:
 https://nodejs.org/en/
 
  Les projets utilisent également les systèmes 'Cypress' et 'Chakram', qui devraient
- déjà être installer dans le projet. Par contre s'ils 
+ déjà être inclus et installés. Par contre s'ils 
  ne le sont pas, tout simplement enter dans l'interface de ligne de commande:
-'npm install -g cypress' et 'npm install -g chakram' 
+1. 'npm install -g cypress'
+2. 'npm install -g chakram' 
 
 
 ## Test REST
 
-Ce project utilise le système de test "chakram", une extension de "chai"
+Ce project utilise le système de test "chakram", une extension de "chai" et "mocha"
 
 http://dareid.github.io/chakram/
 
@@ -38,6 +39,7 @@ http://dareid.github.io/chakram/
 
 1. Dans l'interface de ligne de commande:
 
+   - enter 'npm install -g mocha' pour installer Mocha
    - naviger dans le dossier du project: 'RESTTesting'
    - entrer 'npm run test'
 
