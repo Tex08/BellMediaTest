@@ -2,13 +2,14 @@
 	Alexandre Pelletier
 
 	File created: January 17, 2018
-	Last Modified: January 20, 2018
+	Last Modified: January 21, 2018
 	
 */
 
 
 	//Get the full roster from JSON object
 	var roster = winnipeg["roster"];
+	
 	//The attributes that will be displayed
 	var playerAttributes = ["uniform_number", "first_name", "last_name", "position",
 							"height", "weight", "birth_date", "phase_status"];
