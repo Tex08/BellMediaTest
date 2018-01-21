@@ -5,7 +5,9 @@
 #### Description et Fonctionnement
 
 Ce project utilise du javascript, HTML5, et CSS pour afficher l'alignement d'une équipe
-LNH provenu d'un object JSON. Le framework CSS W3 est utilisé
+LNH provenu d'un object JSON. Le framework CSS W3 est utilisé.
+
+Pour visionner:
 
 1. Naviguer au dossier 'FrontEndTest'
 
@@ -62,7 +64,7 @@ https://www.cypress.io/
 
 2. L'interface Cypress va ouvrir. Veuiller selectionner le test nommé 'rdsui_spec.js'
 
-Par la suite, Cypress va ouvrir un naviguateur web et les instructions et tests 
+Par la suite, Cypress va ouvrir un navigateur web et les instructions et tests 
 seront automatiquement effectués. 
 À noter que le ficher contenant le code pour les tests est situé au 'UITesting/cypress/integration/rdsui_spec.js'
 
