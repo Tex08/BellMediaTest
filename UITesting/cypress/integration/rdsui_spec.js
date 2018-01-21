@@ -8,7 +8,7 @@ describe('Bell Test', function() {
     cy.get('a')
   })
 
-  it('goes to RDS and verifies the image on the upper left', function () {
+  it('goes to RDS and verifies the presence of the image on the upper left', function () {
   	cy.visit('https://www.rds.ca')
     var img = cy.get('.icon-rds.md.logo')
     expect(img).to.exist
