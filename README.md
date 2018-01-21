@@ -22,6 +22,11 @@ Vous pouvez télécharger et installer NodeJS ici:
 
 https://nodejs.org/en/
 
+ Les projets utilisent également les systèmes 'Cypress' et 'Chakram', qui devraient
+ déjà être installer dans le projet. Par contre s'ils 
+ ne le sont pas, tout simplement enter dans l'interface de ligne de commande:
+'npm install -g cypress' et 'npm install -g chakram' 
+
 
 ## Test REST
 
@@ -33,7 +38,6 @@ http://dareid.github.io/chakram/
 
 1. Dans l'interface de ligne de commande:
 
-   - entrer 'npm install -g mocha' pour installer Mocha
    - naviger dans le dossier du project: 'RESTTesting'
    - entrer 'npm run test'
 
@@ -51,7 +55,6 @@ https://www.cypress.io/
 
 1. Dans l'interface de ligne de commande:
 
-   - entrer 'npm install -g cypress' pour installer Cypress
    - naviguer dans le dossier du project:'UITesting'
    - entrer 'npm run cypress'
 
@@ -62,13 +65,9 @@ seront automatiquement effectués.
 À noter que le ficher contenant le code pour les tests est situé au 'UITesting/cypress/integration/rdsui_spec.js'
 
 
-#### Notes 
+#### Note sur Cypress
 
-1. 'Cypress' et 'chakram' devraient être déjà installer dans le projet, par contre s'ils 
-    ne sont pas, tout simplement enter dans l'interface de ligne de commande:
-   'npm install -g cypress' et 'npm install -g chakram' 
-
-2. À noter que 'Cypress' est un système de test UI conçu pour les applications webs en 
+   À noter que 'Cypress' est un système de test UI conçu pour les applications webs en 
    développement, et donc il ne laisse pas l'utilisateur tester plus d'un domaine publique 
    par tests. Conséquamment, l'exercise est séparer en deux tests: le premier pour faire la recherche 
    google 'rds', et le deuxième pour naviguer sur 'rds.ca' et assurer la présence de l'image.
