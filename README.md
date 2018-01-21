@@ -24,7 +24,7 @@ https://nodejs.org/en/
 
  Les projets utilisent également les systèmes 'Cypress' et 'Chakram', qui devraient
  déjà être inclus et installés. Par contre s'ils 
- ne le sont pas, tout simplement enter dans l'interface de ligne de commande:
+ ne le sont pas, tout simplement entrer dans l'interface de ligne de commande:
 1. 'npm install -g cypress'
 2. 'npm install -g chakram' 
 
@@ -70,6 +70,6 @@ seront automatiquement effectués.
 #### Note sur Cypress
 
    À noter que 'Cypress' est un système de test UI conçu pour les applications webs en 
-   développement, et donc il ne laisse pas l'utilisateur tester plus d'un domaine publique 
+   développement, donc il ne laisse pas l'utilisateur tester plus d'un domaine publique 
    par tests. Conséquamment, l'exercise est séparer en deux tests: le premier pour faire la recherche 
    google 'rds', et le deuxième pour naviguer sur 'rds.ca' et assurer la présence de l'image.
