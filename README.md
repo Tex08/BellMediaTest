@@ -40,7 +40,7 @@ http://dareid.github.io/chakram/
 
 1. Dans l'interface de ligne de commande:
 
-   - naviger dans le dossier du project: 'RESTTesting'
+   - naviguer dans le dossier du project: 'RESTTesting'
    - entrer 'npm install --save-dev mocha' pour installer Mocha
    - entrer 'npm run test'
 
@@ -73,5 +73,5 @@ seront automatiquement effectués.
 
    À noter que 'Cypress' est un système de test UI conçu pour les applications webs en 
    développement, donc il ne laisse pas l'utilisateur tester plus d'un domaine publique 
-   par tests. Conséquamment, l'exercise est séparer en deux tests: le premier pour faire la recherche 
+   par test. Conséquemment, l'exercise est séparé en deux tests: le premier pour faire la recherche 
    google 'rds', et le deuxième pour naviguer sur 'rds.ca' et assurer la présence de l'image.
