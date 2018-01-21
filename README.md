@@ -24,7 +24,7 @@ Vous pouvez télécharger et installer NodeJS ici:
 
 https://nodejs.org/en/
 
- Les projets utilisent également le système de testing'Chakram', qui devraient
+ Le projet "test REST/JSON" utilise également le système de testing 'Chakram', qui devraient
  déjà être inclus et installés. Par contre s'ils 
  ne l'est pas, tout simplement entrer dans l'interface de ligne de commande:
 - 'npm install -g chakram' 
