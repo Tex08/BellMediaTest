@@ -1,4 +1,4 @@
-# Bell Média Test
+# Bell Média Exercise
 
 ## Test Front-End
 
@@ -24,10 +24,9 @@ Vous pouvez télécharger et installer NodeJS ici:
 
 https://nodejs.org/en/
 
- Les projets utilisent également les systèmes 'Cypress' et 'Chakram', qui devraient
+ Les projets utilisent également le système de testing'Chakram', qui devraient
  déjà être inclus et installés. Par contre s'ils 
- ne le sont pas, tout simplement entrer dans l'interface de ligne de commande:
-- 'npm install -g cypress'
+ ne l'est pas, tout simplement entrer dans l'interface de ligne de commande:
 - 'npm install -g chakram' 
 
 
@@ -41,8 +40,8 @@ http://dareid.github.io/chakram/
 
 1. Dans l'interface de ligne de commande:
 
-   - entrer 'npm install -g mocha' pour installer Mocha
    - naviger dans le dossier du project: 'RESTTesting'
+   - entrer 'npm install --save-dev mocha' pour installer Mocha
    - entrer 'npm run test'
 
 Par la suite, les résultats des deux tests seront affichés dans l'interface de ligne de commande.
@@ -55,11 +54,12 @@ Ce project utilise le système de test UI end-to-end "Cypress"
 
 https://www.cypress.io/
 
-### Fonctionnement
+### Installation et Fonctionnement
 
 1. Dans l'interface de ligne de commande:
 
    - naviguer dans le dossier du project:'UITesting'
+   - entrer 'npm install --save-dev cypress' pour installer Cypress
    - entrer 'npm run cypress'
 
 2. L'interface Cypress va ouvrir. Veuiller selectionner le test nommé 'rdsui_spec.js'
