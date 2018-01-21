@@ -1,4 +1,4 @@
-# Bell Media Test
+# Bell Média Test
 
 ## Test Front-End
 
@@ -27,8 +27,8 @@ https://nodejs.org/en/
  Les projets utilisent également les systèmes 'Cypress' et 'Chakram', qui devraient
  déjà être inclus et installés. Par contre s'ils 
  ne le sont pas, tout simplement entrer dans l'interface de ligne de commande:
-1. 'npm install -g cypress'
-2. 'npm install -g chakram' 
+- 'npm install -g cypress'
+- 'npm install -g chakram' 
 
 
 ## Test REST
