@@ -51,7 +51,7 @@ h3 {
 }
 
 #grad {
-	background: linear-gradient(to right, darkblue , white);
+	background: linear-gradient(to right, #002080 , white);
 }
 
 #teamName {
@@ -65,5 +65,5 @@ h3 {
 
 #header {
 	box-shadow: 4px 4px #d9d9d9;
-; 
 }
+
